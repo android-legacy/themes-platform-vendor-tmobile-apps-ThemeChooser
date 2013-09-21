@@ -66,6 +66,7 @@ public class ThemeChooser extends Activity {
 
     private Gallery mGallery;
     private ThemeChooserAdapter mAdapter;
+    private TextView mThemeNameView;
 
     private boolean mShowUninstallIcon = true;
 
@@ -88,6 +89,7 @@ public class ThemeChooser extends Activity {
     private void inflateActivity() {
         setContentView(R.layout.main);
 
+        mThemeNameView = (TextView)findViewById(R.id.theme_name);
         mGallery = (Gallery)findViewById(R.id.gallery);
         mGallery.setAdapter(mAdapter);
         mGallery.setOnItemSelectedListener(mItemSelected);
@@ -244,6 +246,9 @@ public class ThemeChooser extends Activity {
             if (item.getPackageName().isEmpty()) {
                 mShowUninstallIcon = false;
             }
+            String text = item.getName();
+            mThemeNameView.setText(text);
+
             ThemeChooser.this.invalidateOptionsMenu();
         }
 
