@@ -127,6 +127,7 @@ public class ChangeThemeHelper {
             final ActivityManager am = (ActivityManager)context.getSystemService(Context.ACTIVITY_SERVICE);
             am.forceStopPackage("com.cyanogenmod.trebuchet");
             am.forceStopPackage("com.android.launcher");
+            am.forceStopPackage("com.android.launcher3");
             mHandler.scheduleFinish("Theme change 'complete', closing!");
         }
     };
