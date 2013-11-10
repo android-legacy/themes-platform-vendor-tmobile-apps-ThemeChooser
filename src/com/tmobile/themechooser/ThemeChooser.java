@@ -200,14 +200,14 @@ public class ThemeChooser extends Activity {
                 finish();
                 break;
             case MENU_APPLY:
-                 if (!theme.hasHostDensity()) {
+                if (!theme.hasHostDensity()) {
                      showDialog(DIALOG_MISSING_HOST_DENSITY);
                     break;
                 }
-                if (!theme.hasThemePackageScope()) {
-                    showDialog(DIALOG_MISSING_THEME_PACKAGE_SCOPE);
+                /*if (!theme.hasThemePackageScope()) {
+					showDialog(DIALOG_MISSING_THEME_PACKAGE_SCOPE);
                     break;
-                }
+                }*/
                 if (Intent.ACTION_PICK.equals(getIntent().getAction())) {
                     Intent i = new Intent(null, theme.getUri(ThemeChooser.this));
                     setResult(Activity.RESULT_OK, i);
