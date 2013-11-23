@@ -147,7 +147,14 @@ public class ThemeChooser extends Activity {
                 builder = new AlertDialog.Builder(this);
                 builder.setTitle(R.string.dialog_theme_error_title);
                 builder.setMessage(R.string.dialog_missing_theme_package_scope_msg);
-                builder.setPositiveButton(android.R.string.ok, null);
+                builder.setPositiveButton(R.string.dialog_apply_anyway_btn, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        int selectedPos = mGallery.getSelectedItemPosition();
+                        ThemeItem item = (ThemeItem)mGallery.getItemAtPosition(selectedPos);
+                        doApply(item);
+                    }
+                });
+                builder.setNegativeButton(R.string.dialog_bummer_btn, null);
                 return builder.create();
             default:
                 return mChangeHelper.dispatchOnCreateDialog(id);
