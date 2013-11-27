@@ -29,6 +29,6 @@
     <string name="switching_to_theme">Αλλαγή σε <xliff:g id="theme">%s</xliff:g>\u2026</string>
     <string name="dialog_theme_error_title">Σφάλμα θέματος</string>
     <string name="dialog_missing_host_density_msg">Αυτό το θέμα δεν είναι κατασκευασμένο για το μέγεθος της οθόνης σας.</string>
-    <string name="dialog_missing_theme_package_scope_msg">Το θέμα δεν έχει μεταγλωττιστεί σωστά (compiled) και δε μπορεί να εφαρμοστεί.</string>
+    <string name="dialog_missing_theme_package_scope_msg">Το θέμα δεν έχει μεταγλωττιστεί σωστά (compiled).</string>
     <string name="dialog_apply_anyway_btn">Εφαρμογή οπωσδήποτε</string>
 </resources>
