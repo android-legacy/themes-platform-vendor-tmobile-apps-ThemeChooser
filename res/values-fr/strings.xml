@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 T-Mobile USA, Inc.
+<!--
+     Copyright (C) 2010 T-Mobile USA, Inc.
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,5 +34,4 @@
     <string name="dialog_missing_host_density_msg">Désolé, ce thème n\'est pas compatible avec la résolution de votre écran.</string>
     <string name="dialog_missing_theme_package_scope_msg">Ce thème n\'a pas été compilé correctement et ne peut être appliqué. Veuillez le signaler à son créateur.</string>
     <string name="dialog_apply_anyway_btn">Appliquer quand même</string>
-    <string name="dialog_bummer_btn">Annuler</string>
 </resources>

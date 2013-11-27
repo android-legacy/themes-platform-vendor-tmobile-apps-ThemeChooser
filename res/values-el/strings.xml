@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 T-Mobile USA, Inc.
+<!--
+     Copyright (C) 2010 T-Mobile USA, Inc.
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,8 +15,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Θέματα</string>
     <string name="menu_apply">Εφαρμογή</string>
     <string name="menu_uninstall">Απεγκατάσταση</string>
@@ -24,11 +25,10 @@
     <string name="theme_current_author">Δημιουργός: </string>
     <string name="theme_current_name">Όνομα: </string>
     <string name="theme_current_package">Πακέτο: </string>
-    <string name="theme_change_dialog_title">Εφαρμογή&#8230;</string>
-    <string name="switching_to_theme">Αλλαγή σε <xliff:g id="theme">%s</xliff:g>&#8230;</string>
+    <string name="theme_change_dialog_title">Εφαρμογή\u2026</string>
+    <string name="switching_to_theme">Αλλαγή σε <xliff:g id="theme">%s</xliff:g>\u2026</string>
     <string name="dialog_theme_error_title">Σφάλμα θέματος</string>
     <string name="dialog_missing_host_density_msg">Αυτό το θέμα δεν είναι κατασκευασμένο για το μέγεθος της οθόνης σας.</string>
     <string name="dialog_missing_theme_package_scope_msg">Το θέμα δεν έχει μεταγλωττιστεί σωστά (compiled) και δε μπορεί να εφαρμοστεί.</string>
     <string name="dialog_apply_anyway_btn">Εφαρμογή οπωσδήποτε</string>
-    <string name="dialog_bummer_btn">Ακύρωση</string>
 </resources>

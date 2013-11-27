@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 T-Mobile USA, Inc.
+<!--
+     Copyright (C) 2010 T-Mobile USA, Inc.
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,24 +16,22 @@
      limitations under the License.
 -->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Temas</string>
     
     <string name="menu_apply">Aplicar</string>
     <string name="menu_uninstall">Desinstalar</string>
+    <string name="menu_about">Sobre</string>
 
     <string name="theme_current">%s (atual)</string>
-    <string name="theme_change_dialog_title">Aplicando&#8230;</string>
-    <string name="switching_to_theme">Trocando para <xliff:g id="theme">%s</xliff:g>&#8230;</string>
+    <string name="theme_current_author">Autor:</string>
+    <string name="theme_current_name">Nome:</string>
+    <string name="theme_current_package">Pacote:</string>
+    <string name="theme_change_dialog_title">Aplicando\u2026</string>
+    <string name="switching_to_theme">Trocando para <xliff:g id="theme">%s</xliff:g>\u2026</string>
 
     <string name="dialog_theme_error_title">Erro no tema</string>
     <string name="dialog_missing_host_density_msg">Desculpe, faltam itens neste tema para o tamanho da tela do seu dispositivo.</string>
     <string name="dialog_missing_theme_package_scope_msg">Este tema foi compilado impropriamente e não pode ser aplicado. Por favor, reporte este incidente ao autor do tema.</string>
     <string name="dialog_apply_anyway_btn">Aplicar assim mesmo</string>
-    <string name="dialog_bummer_btn">Cancelar</string>
-    <string name="menu_about">Sobre</string>
-    <string name="theme_current_author">Autor:</string>
-    <string name="theme_current_name">Nome:</string>
-    <string name="theme_current_package">Pacote:</string>
 </resources>
