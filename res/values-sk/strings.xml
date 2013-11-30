@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 T-Mobile USA, Inc.
+<!--
+     Copyright (C) 2010 T-Mobile USA, Inc.
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +16,7 @@
      limitations under the License.
 -->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Témy</string>
     <string name="menu_apply">Použiť</string>
     <string name="menu_uninstall">Odinštalovať</string>
@@ -25,11 +25,10 @@
     <string name="theme_current_author">Autor: </string>
     <string name="theme_current_name">Názov: </string>
     <string name="theme_current_package">Balík: </string>
-    <string name="theme_change_dialog_title">Aplikuje sa&#8230;</string>
-    <string name="switching_to_theme">Prepína sa na tému <xliff:g id="theme">%s</xliff:g>&#8230;</string>
+    <string name="theme_change_dialog_title">Aplikuje sa\u2026</string>
+    <string name="switching_to_theme">Prepína sa na tému <xliff:g id="theme">%s</xliff:g>\u2026</string>
     <string name="dialog_theme_error_title">Chyba tém</string>
     <string name="dialog_missing_host_density_msg">Táto téma neobsahuje potrebné grafické súbory pre rozlíšenie obrazovky vášho zariadenia.</string>
     <string name="dialog_missing_theme_package_scope_msg">Táto téma bola nesprávne zostavená a nemôže byť použitá.</string>
     <string name="dialog_apply_anyway_btn">Použiť</string>
-    <string name="dialog_bummer_btn">Zrušiť</string>
 </resources>

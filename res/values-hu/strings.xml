@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 T-Mobile USA, Inc.
+<!--
+     Copyright (C) 2010 T-Mobile USA, Inc.
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +16,7 @@
      limitations under the License.
 -->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Témaválasztó</string>
 
     <string name="menu_apply">Alkalmaz</string>
@@ -27,12 +27,11 @@
     <string name="theme_current_author">Szerző: </string>
     <string name="theme_current_name">Név: </string>
     <string name="theme_current_package">Csomag: </string>
-    <string name="theme_change_dialog_title">Alkalmazás&#8230;</string>
-    <string name="switching_to_theme">Váltás %s témára&#8230;</string>
+    <string name="theme_change_dialog_title">Alkalmazás\u2026</string>
+    <string name="switching_to_theme">Váltás <xliff:g id="theme">%s</xliff:g> témára\u2026</string>
 
     <string name="dialog_theme_error_title">Téma hiba</string>
     <string name="dialog_missing_host_density_msg">A választott téma nem erre a felbontásra készült</string>
     <string name="dialog_missing_theme_package_scope_msg">Ez a téma nem megfelelően összeállított, és nem alkalmazható. Kérjük, jelentse az esetet a téma szerzőjének</string>
     <string name="dialog_apply_anyway_btn">Alkalmazás</string>
-    <string name="dialog_bummer_btn">Mégse</string>
 </resources>

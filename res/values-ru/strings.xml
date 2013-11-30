@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2010 T-Mobile USA, Inc.
+<!--
+     Copyright (C) 2010 T-Mobile USA, Inc.
      Copyright (C) 2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,8 +16,7 @@
      limitations under the License.
 -->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Темы</string>
 
     <string name="menu_apply">Применить</string>
@@ -27,12 +27,11 @@
     <string name="theme_current_author">Автор: </string>
     <string name="theme_current_name">Название: </string>
     <string name="theme_current_package">Пакет: </string>
-    <string name="theme_change_dialog_title">Применение&#8230;</string>
-    <string name="switching_to_theme">Переключение на <xliff:g id="theme">%s</xliff:g>&#8230;</string>
+    <string name="theme_change_dialog_title">Применение\u2026</string>
+    <string name="switching_to_theme">Переключение на <xliff:g id="theme">%s</xliff:g>\u2026</string>
 
     <string name="dialog_theme_error_title">Ошибка темы</string>
     <string name="dialog_missing_host_density_msg">Эта тема не содержит ресурсов для размера экрана вашего устройства.</string>
     <string name="dialog_missing_theme_package_scope_msg">Эта тема была собрана неправильно и не может быть применена.</string>
     <string name="dialog_apply_anyway_btn">Всё равно применить</string>
-    <string name="dialog_bummer_btn">Отмена</string>
 </resources>
