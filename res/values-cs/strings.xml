@@ -32,6 +32,6 @@
 
     <string name="dialog_theme_error_title">Chyba tématu</string>
     <string name="dialog_missing_host_density_msg">V tomto tématu schází prostředky pro velikost obrazovky tohoto zařízení.</string>
-    <string name="dialog_missing_theme_package_scope_msg">Toto téma nebylo správně vytvořeno a proto nemůže být použito.</string>
+    <string name="dialog_missing_theme_package_scope_msg">Toto téma nebylo správně vytvořeno.</string>
     <string name="dialog_apply_anyway_btn">Přesto použít</string>
 </resources>
