@@ -31,5 +31,4 @@
     <string name="dialog_missing_host_density_msg">Ši tema nesuderinama su jūsų ekrano rezoliūcija.</string>
     <string name="dialog_missing_theme_package_scope_msg">Ši tema buvo netinkamai parengta, ir negali būti taikoma.</string>
     <string name="dialog_apply_anyway_btn">Taikyti vistiek</string>
-    <string name="dialog_bummer_btn">Atšaukti</string>
 </resources>
